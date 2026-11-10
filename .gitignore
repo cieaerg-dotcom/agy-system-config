@@ -1,0 +1,30 @@
+# 忽略大型二進制檔案、虛擬環境與多媒體檔案
+whisper.cpp/
+venv/
+Back/
+錄音工作區/
+AdGuardHome/
+.DS_Store
+*.m4a
+*.mp3
+*.wav
+*.bin
+*.pt
+*.whl
+*.dylib
+*.app/
+*.exe
+*.log
+*.jsonl
+.agy_watcher_state
+.log_sync_state
+
+# 忽略獨立專案與非核心目錄（專案內部各自獨立管理 Git）
+專案資料夾/
+Book-of-Fate/
+colab_cloud_transfer/
+jung_archetypes_quiz/
+scratch/
+Archive_整理區/
+命理/
+讀書清單/
